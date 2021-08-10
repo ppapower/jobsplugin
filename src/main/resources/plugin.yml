@@ -1,0 +1,16 @@
+name: 'JobsPlugin'
+description: 'For jobs on server. Vault is required!'
+version: 1.0.0
+api-version: 1.17
+main: fun.crasty.Main
+author: ppapower
+
+commands:
+  job_editor:
+    description: 'To open the editor'
+    usage: /<command>
+
+permissions:
+  jobs.editor:
+    default: op
+    description: 'Allow to use editor'

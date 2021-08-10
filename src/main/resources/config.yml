@@ -1,0 +1,49 @@
+messages:
+  changes_done: 'Changes saved and data was refreshed!'
+  some_points_not_selected: 'Not all points have been selected!Please, select all points (warehouse and salepoint)'
+  plugin_desc1: 'Important: You must select the territory with your back to the east (F3)!'
+  plugin_desc2: 'Important: The area must be highlighted from left to right.The first point is always at the bottom, the second always at the top!'
+  first_point_was_set: 'First point was set!'
+  second_point_was_set: 'Second point was set!'
+  item_name: 'Employer"s resource'
+  item_was_take_title: 'You took the resource'
+  item_was_take_desc: 'Take it to the point of sale'
+  already_taken_item: 'You have already taken the resource, or you havent released the main hand!'
+  done_resource_title: 'You turned in a resource'
+  done_resource_desc: 'And earned $2'
+  dont_have_persmission: 'You dont have permission for this command!'
+areas:
+  ware:
+    first:
+      ==: org.bukkit.Location
+      world: auth
+      x: 20001.0
+      y: 72.0
+      z: 20019.0
+      pitch: 0.0
+      yaw: 0.0
+    second:
+      ==: org.bukkit.Location
+      world: auth
+      x: 20029.0
+      y: 93.0
+      z: 20098.0
+      pitch: 0.0
+      yaw: 0.0
+  salepoint:
+    first:
+      ==: org.bukkit.Location
+      world: auth
+      x: 20010.0
+      y: 74.0
+      z: 20002.0
+      pitch: 0.0
+      yaw: 0.0
+    second:
+      ==: org.bukkit.Location
+      world: auth
+      x: 20014.0
+      y: 77.0
+      z: 20006.0
+      pitch: 0.0
+      yaw: 0.0
